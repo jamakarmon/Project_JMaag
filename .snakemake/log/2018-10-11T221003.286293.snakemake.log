@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 84 of /Users/jasminmaag/pp4rs/playground/Final_Project/Snakefile:
+Missing input files for rule doc2:
+input/document2.tex

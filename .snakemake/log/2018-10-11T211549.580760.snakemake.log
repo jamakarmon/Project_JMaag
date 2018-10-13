@@ -1,0 +1,2 @@
+SyntaxError in line 5 of /Users/jasminmaag/pp4rs/playground/Final_Project/Snakefile:
+Expecting rule keyword, comment or docstrings inside a rule definition. (Snakefile, line 5)

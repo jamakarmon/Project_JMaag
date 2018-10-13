@@ -1,0 +1,25 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	webscr22
+	1
+
+[Thu Oct 11 19:54:45 2018]
+rule webscr22:
+    input: input/webscrapeData.py
+    jobid: 0
+
+Terminating processes on user request, this might take some time.
+    [Thu Oct 11 19:58:01 2018]
+    Error in rule webscr22:
+        jobid: 0
+
+RuleException:
+CalledProcessError in line 55 of /Users/jasminmaag/pp4rs/playground/Final_Project/Snakefile:
+Command ' set -euo pipefail;  /anaconda3/bin/python /Users/jasminmaag/pp4rs/playground/Final_Project/input/.snakemake.er825g1t.webscrapeData.py ' returned non-zero exit status 1.
+  File "/Users/jasminmaag/pp4rs/playground/Final_Project/Snakefile", line 55, in __rule_webscr22
+  File "/anaconda3/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Complete log: /Users/jasminmaag/pp4rs/playground/Final_Project/.snakemake/log/2018-10-11T195445.430205.snakemake.log

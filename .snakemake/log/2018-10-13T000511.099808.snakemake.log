@@ -1,0 +1,3 @@
+NameError in line 10 of /Users/jasminmaag/pp4rs/playground/Final_Project/Snakefile:
+name 'plottargets' is not defined
+  File "/Users/jasminmaag/pp4rs/playground/Final_Project/Snakefile", line 10, in <module>

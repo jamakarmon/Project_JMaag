@@ -1,0 +1,28 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	tsaZH
+	1
+
+[Fri Oct 12 23:59:08 2018]
+rule tsaZH:
+    input: output/data_ZH.csv, input/TSA_ZH.py
+    output: output/finaldata_ZH.csv, output/ZH/plot/figACF_WN.pdf, output/ZH/plot/figACF.pdf, output/ZH/plot/figError.pdf, output/ZH/plot/figModel.pdf, output/ZH/plot/figOrig.pdf, output/ZH/plot/figPACF_WN.pdf, output/ZH/plot/figPACF.pdf, output/ZH/plot/figSeason.pdf, output/ZH/plot/figTrend.pdf, output/ZH/table/aicc_df.pdf, output/ZH/table/error_table.pdf, output/ZH/table/trend_table.pdf, output/ZH/table/vectorcorr_df.pdf
+    jobid: 0
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 50 of /Users/jasminmaag/pp4rs/playground/Final_Project/Snakefile:
+Missing files after 5 seconds:
+output/ZH/table/aicc_df.pdf
+output/ZH/table/error_table.pdf
+output/ZH/table/trend_table.pdf
+output/ZH/table/vectorcorr_df.pdf
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Removing output files of failed job tsaZH since they might be corrupted:
+output/finaldata_ZH.csv, output/ZH/plot/figACF_WN.pdf, output/ZH/plot/figACF.pdf, output/ZH/plot/figError.pdf, output/ZH/plot/figModel.pdf, output/ZH/plot/figOrig.pdf, output/ZH/plot/figPACF_WN.pdf, output/ZH/plot/figPACF.pdf, output/ZH/plot/figSeason.pdf, output/ZH/plot/figTrend.pdf
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/jasminmaag/pp4rs/playground/Final_Project/.snakemake/log/2018-10-12T235907.924324.snakemake.log

@@ -1,0 +1,14 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	doc
+	1
+
+[Fri Oct 12 22:13:03 2018]
+rule doc:
+    input: input/finalDocKopie.tex
+    jobid: 0
+

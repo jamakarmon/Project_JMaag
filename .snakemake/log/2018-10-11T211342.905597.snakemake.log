@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 32 of /Users/jasminmaag/pp4rs/playground/Final_Project/Snakefile:
+Missing input files for rule tsaZH:
+output/data_ZH.csv

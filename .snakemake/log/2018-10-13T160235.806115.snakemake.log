@@ -1,0 +1,29 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	pdftext
+	2
+
+[Sat Oct 13 16:02:36 2018]
+rule pdftext:
+    input: output/finaldata_ZH.csv, output/finaldata_BE.csv, input/finalText.tex, input/finalText.py, output/ZH/plot/figACF_WN.pdf, output/ZH/plot/figACF.pdf, output/ZH/plot/figError.pdf, output/ZH/plot/figModel.pdf, output/ZH/plot/figOrig.pdf, output/ZH/plot/figPACF_WN.pdf, output/ZH/plot/figPACF.pdf, output/ZH/plot/figSeason.pdf, output/ZH/plot/figTrend.pdf, output/ZH/table/aicc_df.tex, output/ZH/table/error_table.tex, output/ZH/table/trend_table.tex, output/ZH/table/vectorcorr_df.tex, output/BE/plot/figACF_WN.pdf, output/BE/plot/figACF.pdf, output/BE/plot/figError.pdf, output/BE/plot/figModel.pdf, output/BE/plot/figOrig.pdf, output/BE/plot/figPACF_WN.pdf, output/BE/plot/figPACF.pdf, output/BE/plot/figSeason.pdf, output/BE/plot/figTrend.pdf, output/BE/table/aicc_df.tex, output/BE/table/error_table.tex, output/BE/table/trend_table.tex, output/BE/table/vectorcorr_df.tex
+    output: output/finalText.pdf
+    jobid: 4
+
+[Sat Oct 13 16:02:38 2018]
+Finished job 4.
+1 of 2 steps (50%) done
+
+[Sat Oct 13 16:02:38 2018]
+localrule all:
+    input: output/bundleData.csv, output/data_allcantons.csv, output/data_ZH.csv, output/data_BE.csv, output/finaldata_ZH.csv, output/finaldata_BE.csv, output/finalText.pdf, output/ZH/plot/figACF_WN.pdf, output/ZH/plot/figACF.pdf, output/ZH/plot/figError.pdf, output/ZH/plot/figModel.pdf, output/ZH/plot/figOrig.pdf, output/ZH/plot/figPACF_WN.pdf, output/ZH/plot/figPACF.pdf, output/ZH/plot/figSeason.pdf, output/ZH/plot/figTrend.pdf, output/ZH/table/aicc_df.tex, output/ZH/table/error_table.tex, output/ZH/table/trend_table.tex, output/ZH/table/vectorcorr_df.tex, output/BE/plot/figACF_WN.pdf, output/BE/plot/figACF.pdf, output/BE/plot/figError.pdf, output/BE/plot/figModel.pdf, output/BE/plot/figOrig.pdf, output/BE/plot/figPACF_WN.pdf, output/BE/plot/figPACF.pdf, output/BE/plot/figSeason.pdf, output/BE/plot/figTrend.pdf, output/BE/table/aicc_df.tex, output/BE/table/error_table.tex, output/BE/table/trend_table.tex, output/BE/table/vectorcorr_df.tex
+    jobid: 0
+
+[Sat Oct 13 16:02:38 2018]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /Users/jasminmaag/pp4rs/playground/Final_Project/.snakemake/log/2018-10-13T160235.806115.snakemake.log

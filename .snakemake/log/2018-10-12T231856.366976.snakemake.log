@@ -1,0 +1,29 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	pdftext
+	2
+
+[Fri Oct 12 23:18:56 2018]
+rule pdftext:
+    input: input/finalText.tex, input/finalText.py
+    output: output/finalText.pdf
+    jobid: 4
+
+[Fri Oct 12 23:18:58 2018]
+Finished job 4.
+1 of 2 steps (50%) done
+
+[Fri Oct 12 23:18:58 2018]
+localrule all:
+    input: output/bundleData.csv, output/data_allcantons.csv, output/finaldata_ZH.csv, output/finaldata_BE.csv, output/finalText.pdf
+    jobid: 0
+
+[Fri Oct 12 23:18:58 2018]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /Users/jasminmaag/pp4rs/playground/Final_Project/.snakemake/log/2018-10-12T231856.366976.snakemake.log

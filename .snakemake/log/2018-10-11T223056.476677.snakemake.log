@@ -1,0 +1,28 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	doc2
+	1
+
+[Thu Oct 11 22:30:56 2018]
+rule doc2:
+    input: input/document.tex, input/document2.py
+    output: output/projectDocument.pdf
+    jobid: 0
+
+    [Thu Oct 11 22:30:56 2018]
+    Error in rule doc2:
+        jobid: 0
+        output: output/projectDocument.pdf
+
+RuleException:
+CalledProcessError in line 93 of /Users/jasminmaag/pp4rs/playground/Final_Project/Snakefile:
+Command ' set -euo pipefail;  /anaconda3/bin/python /Users/jasminmaag/pp4rs/playground/Final_Project/input/.snakemake.qtk0n_28.document2.py ' returned non-zero exit status 1.
+  File "/Users/jasminmaag/pp4rs/playground/Final_Project/Snakefile", line 93, in __rule_doc2
+  File "/anaconda3/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/jasminmaag/pp4rs/playground/Final_Project/.snakemake/log/2018-10-11T223056.476677.snakemake.log

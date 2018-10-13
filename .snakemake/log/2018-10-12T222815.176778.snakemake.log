@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 78 of /Users/jasminmaag/pp4rs/playground/Final_Project/Snakefile:
+Missing input files for rule doc:
+input/finalDocKopie.tex

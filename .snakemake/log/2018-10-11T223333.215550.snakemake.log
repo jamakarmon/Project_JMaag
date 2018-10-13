@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	doc2
+	1
+
+[Thu Oct 11 22:33:33 2018]
+rule doc2:
+    input: input/document.tex, input/document2.py
+    output: output/projectDocument.pdf
+    jobid: 0
+
+[Thu Oct 11 22:33:33 2018]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /Users/jasminmaag/pp4rs/playground/Final_Project/.snakemake/log/2018-10-11T223333.215550.snakemake.log

@@ -1,0 +1,28 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	tsaZH
+	1
+
+[Thu Oct 11 19:07:19 2018]
+rule tsaZH:
+    input: output/data_ZH.csv, input/TSA_ZH.py
+    output: output/finaldata_ZH.csv
+    jobid: 0
+
+    [Thu Oct 11 19:07:19 2018]
+    Error in rule tsaZH:
+        jobid: 0
+        output: output/finaldata_ZH.csv
+
+RuleException:
+WorkflowError in line 34 of /Users/jasminmaag/pp4rs/playground/Final_Project/Snakefile:
+URLError: <urlopen error [Errno 2] No such file or directory: '/Users/jasminmaag/pp4rs/playground/Final_Project/input/input/TSA_ZH.py'>
+  File "/Users/jasminmaag/pp4rs/playground/Final_Project/Snakefile", line 34, in __rule_tsaZH
+  File "/anaconda3/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/jasminmaag/pp4rs/playground/Final_Project/.snakemake/log/2018-10-11T190719.794559.snakemake.log

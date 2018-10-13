@@ -1,0 +1,18 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	webscr22
+	1
+
+[Thu Oct 11 20:03:51 2018]
+rule webscr22:
+    input: input/webscrapeData.py
+    jobid: 0
+
+[Thu Oct 11 20:09:45 2018]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /Users/jasminmaag/pp4rs/playground/Final_Project/.snakemake/log/2018-10-11T200351.617033.snakemake.log
